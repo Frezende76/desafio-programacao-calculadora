@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Anuncios</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div class="titulo">
+        <h1>Calculadora de anuncios On-line</h1>
+        <h2>Desenvolvido por Fabricio Rezende</h2>
+    </div>
+   <main>
+         <section class="pagina-conteudo">
+            <form class="formulario">
+                <div class="formulario__grupo">
+                    <label class="formulario__label" for="valor">Entre com o valor investido : R$</label>
+                    <input class="formulario__campo" type="text" maxlength="8" minlength="1" id="invest" spellcheck="false" autofocus>
+                </div>
+                    <button onclick="relatorio()" class="formulario__botao">Enviar dados</button>
+            </form>
+            </section>
+
+    </main>
+    <script src="js/calculadora.js"></script>
+</body>
+</html>
